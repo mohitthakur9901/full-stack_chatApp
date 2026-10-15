@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: backend
-        image: iemafzal/backend:v1
-        imagePullPolicy: Always
+        image: mohitthakur9901/chat-backend:latest
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5001
         env:
